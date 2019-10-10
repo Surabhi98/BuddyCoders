@@ -44,11 +44,7 @@ void setup() {
 
 void draw() {
   background(51); 
-  for (int i = 0; i < dim; i++) {
-    for (int j = 0; j < dim; j++) {
-      for (int k = 0; k < dim; k++) {
-        cube[i][j][k].show();
-      }
-    }
-  }
+  
+  //add code
+  
 }
