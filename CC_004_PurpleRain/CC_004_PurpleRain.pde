@@ -11,17 +11,18 @@ Drop[] drops = new Drop[500]; // array of drop objects
 
 void setup() {
   size(640, 360); // size of the window
-  for (int i = 0; i < drops.length; i++) { // we create the drops 
-    drops[i] = new Drop();
-  }
-  saveFrame("output.png");
+  //create the drops
+  
+  //add code
+  
+  
 }
 
 void draw() {
   background(230, 230, 250); // background color in RGB color cordinates
-  for (int i = 0; i < drops.length; i++) {
-    drops[i].fall(); // sets the shape and speed of drop
-    drops[i].show(); // render drop
-    
-  }
+ //set shape and speed of drop and render it
+ 
+ //add code
+ 
+ 
 }
