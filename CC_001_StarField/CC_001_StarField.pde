@@ -14,9 +14,10 @@ void setup() {
   size(600, 600);
   // I fill the array with a for loop;
   // running 800 times, it creates a new star using the Star() class.
-  for (int i = 0; i < stars.length; i++) {
-    stars[i] = new Star();
-  }
+  
+     //add code
+  
+  
 }
 
 void draw() {
@@ -29,8 +30,8 @@ void draw() {
   translate(width/2, height/2);
   // I draw each star, running the "update" method to update its position and
   // the "show" method to show it on the canvas.
-  for (int i = 0; i < stars.length; i++) {
-    stars[i].update();
-    stars[i].show();
-  }
+
+     //add code
+     
+     
 }
